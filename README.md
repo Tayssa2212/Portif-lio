@@ -35,3 +35,21 @@ portfolio/
 ├── servicos/
 ├── sobre/
 └── README.md
+📌 Objetivos do portfólio
+Criar uma presença online profissional.
+
+Exibir meus principais projetos e experiências.
+
+Facilitar o contato com recrutadores ou parceiros.
+
+✨ Futuras melhorias
+Adicionar responsividade total para mobile e tablets.
+
+Melhorar a acessibilidade do site.
+
+Incluir animações leves para aprimorar a experiência do usuário.
+
+📬 Contato
+Se quiser conversar, colaborar ou tirar dúvidas, entre em contato comigo por meio da página Contato ou pelas redes sociais listadas no site.
+
+Feito com 💻 por Tayssa2212
