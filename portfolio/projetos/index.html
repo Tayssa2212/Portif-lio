@@ -1,0 +1,18 @@
+<script>
+    const usuarioGitHub = "Tayssa2212";
+    fetch(`https://api.github.com/users/${usuarioGitHub}/repos`)
+      .then(res => res.json())
+      .then(repos => {
+        const projetosDiv = document.getElementById("projetos");
+        repos.forEach(repo => {
+          const projeto = document.createElement("div");
+          projeto.innerHTML = `
+            <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+            <p>${repo.description || "Sem descrição."}</p>
+          `;
+          projeto.style.marginBottom = "20px";
+          projetosDiv.appendChild(projeto);
+        });
+      });
+  </script>
+  
